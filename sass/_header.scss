@@ -1,0 +1,184 @@
+            .wrap {
+                height: 68px;
+            }
+            
+            .site-bmenu {
+                &__line1,
+                .wrap {
+                    margin-top: 2%;
+                }
+                &__line1 {
+                    font-size: 0.635cm;
+                    font-family: "Montserrat";
+                    color: rgb( 96, 96, 110);
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    line-height: 2.666;
+                }
+                &__line2 {
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: center;
+                    height: 11px;
+                }
+                &__line4 {
+                    h2 {
+                        background-color: rgb( 123, 238, 199);
+                        padding-top: 4px;
+                        color: black;
+                        font-size: 0.635cm;
+                        font-family: "Montserrat";
+                        font-weight: bold;
+                        text-transform: uppercase;
+                        text-align: center;
+                        width: 110px;
+                        height: 38px;
+                        z-index: 7;
+                    }
+                }
+                &__line5 {
+                    font-size: 1.693cm;
+                    font-family: "Montserrat";
+                    color: rgb( 96, 96, 110);
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    line-height: 2;
+                    text-align: center;
+                    width: 400px;
+                    height: 70px;
+                    z-index: 10;
+                    h1 {
+                        padding-top: 1%;
+                        margin: 0 auto;
+                        align-content: center;
+                        text-align: center;
+                        border: 5px solid black;
+                        width: 400px;
+                        height: 70px;
+                        margin-bottom: 2%;
+                    }
+                    p {
+                        text-transform: none;
+                        font-size: 12px;
+                        font-family: "OpenSans";
+                        color: rgb( 96, 96, 110);
+                        line-height: 1.502;
+                        text-align: center;
+                        width: 400px;
+                        height: 1.411cm;
+                        z-index: 11;
+                        margin: 0 auto;
+                    }
+                }
+                &__line6 {
+                    margin-top: 14%;
+                    width: 16.581cm;
+                    height: 17.639cm;
+                    z-index: 22;
+                }
+                &__line7 {
+                    margin-top: 23%;
+                    h2 {
+                        font-size: 25px;
+                        font-family: "Montserrat";
+                        color: rgb( 96, 96, 110);
+                        font-weight: bold;
+                        text-transform: uppercase;
+                        line-height: 1.6;
+                        text-align: left;
+                        width: 11.324cm;
+                        height: 0.811cm;
+                        z-index: 24;
+                    }
+                    p {
+                        font-size: 19px;
+                        font-family: "OpenSans";
+                        color: rgb( 96, 96, 110);
+                        line-height: 1.876;
+                        text-align: justify;
+                        width: 550px;
+                        height: 200px;
+                        z-index: 25;
+                    }
+                }
+                &__line8 {
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: flex-end;
+                    .wrapfora {
+                        margin-top: 4%;
+                        padding: 10px 25px;
+                        background-color: rgb( 123, 238, 199);
+                        a {
+                            color: white;
+                        }
+                    }
+                }
+                &__line13 {
+                    text-align: center;
+                    justify-content: center;
+                }
+                &__line3,
+                &__line4 {
+                    margin-top: 10%;
+                }
+                &__line9 {
+                    margin-top: 10%;
+                    margin-bottom: 10%;
+                    h2 {
+                        font-size: 35px;
+                        font-family: "Montserrat";
+                        color: rgb( 96, 96, 110);
+                        font-weight: bold;
+                        text-transform: uppercase;
+                        line-height: 1.6;
+                        text-align: left;
+                    }
+                    h3 {
+                        font-size: 17px;
+                        font-family: "OpenSans";
+                        color: rgb( 96, 96, 110);
+                        text-transform: uppercase;
+                        line-height: 1.715;
+                        text-align: left;
+                    }
+                    p {
+                        font-size: 16px;
+                        font-family: "OpenSans";
+                        color: rgb( 96, 96, 110);
+                        line-height: 2.142;
+                        text-align: left;
+                    }
+                }
+            }
+            
+            header {
+                background-image: url(../img/BG.png);
+                background-size: cover;
+                width: 100%;
+                height: 940px;
+                background-repeat: no-repeat;
+            }
+            
+            .top {
+                width: 30px;
+                border: 1px solid black;
+            }
+            
+            .middle {
+                width: 17px;
+                border: 1px solid black;
+            }
+            
+            .bottom {
+                width: 25px;
+                border: 1px solid black;
+            }
+            
+            section {
+                background-size: cover;
+                width: 100%;
+                height: 600px;
+                background-repeat: no-repeat;
+                background-image: url(../img/bgg2.png);
+            }
